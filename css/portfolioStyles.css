@@ -1,0 +1,36 @@
+html {
+  background: url(../images/2.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  z-index: 100;
+}
+
+@font-face {
+  font-family: myFirstFont;
+  src: url(../fonts/sci.otf);
+}
+
+a{
+	text-decoration: none;
+	color: yellow;
+}
+
+#frow, #srow, #trow, #forow, #firow{
+  font-size: 40px;
+  font-weight: bold;
+  height:20vh;
+  border: black solid 0px;
+  font-family: myFirstFont;
+  line-height: 20vh;
+  text-align: center;
+}
+
+#k{
+  cursor: pointer;
+}
+
+.back{
+  background-color: rgba(0,255,0,0.2);
+}

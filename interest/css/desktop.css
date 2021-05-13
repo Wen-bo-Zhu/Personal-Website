@@ -1,0 +1,128 @@
+html {
+  background: url(../images/sky.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  z-index: 100;
+}
+
+@font-face {
+  font-family: myFirstFont;
+  src: url(../fonts/webcomic.ttf);
+}
+
+#wrap{
+  border: solid 0px black;
+  width:100vw;
+  /*width:1024px;*/
+}
+
+header{
+  border:solid 0px black;
+  display：inline-block;
+}
+
+#logo{
+  border: solid 0px black;
+  margin: 10px;
+  display : flex;
+  justify-content: center;
+  align-items : center;
+  flex-grow: 1;
+}
+
+nav ul{
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+  border: solid 1px black;
+  display: flex;
+}
+
+nav ul li a{
+  flex-grow: 1;
+}
+
+nav ul a:link{
+  color: grey;
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: myFirstFont;
+}
+
+nav ul a:active{
+  color: #FFEC84;
+  text-decoration: none;
+}
+
+nav ul a:hover{
+  color: #FFEC84;
+  text-decoration: none;
+}
+
+nav ul a:focus{
+  color: #FFEC84;
+  text-decoration: none;
+}
+
+nav ul a:visited{
+  color: #777;
+  text-decoration: none;
+}
+
+nav ul li{
+  border: solid 1px black;
+  flex-grow: 1;
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  color: black;
+}
+
+nav ul li:hover{
+  background: lightgreen;
+}
+
+#mainArea{
+  border: solid 0px black;
+  min-height:300px;
+  display:flex;
+  margin:10px;
+  padding-bottom: 20px;
+}
+
+.list{
+  flex-grow:1;
+  display : flex;
+  justify-content: center;
+  align-items : center;
+}
+
+.vedio{
+  flex-grow:1;
+  display : flex;
+  justify-content: center;
+  align-items : center;
+}
+
+#subArea{
+  border:solid 0px green;
+  display:flex;
+}
+
+.thumb{
+  border:solid 0px black;
+  flex-grow:1;
+  margin:10px;
+  min-height:250px;
+  max-height:250px;
+  position: relative;
+}
+
+footer{
+  border:solid 0px black;
+  margin-top:10px;
+  min-height:175px;
+}

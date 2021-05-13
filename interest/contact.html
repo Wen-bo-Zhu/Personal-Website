@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="icon" type="images/png" href="images/sci-fi.png"/>
+    <title>Contact Me</title>
+    <!-- Media query for narrow browser width -->
+    <link rel="stylesheet" media="only screen and (max-width: 480px)" href="css/mobile.css">
+
+    <!-- Media query for medium browser width -->
+    <link rel="stylesheet" media="only screen and (min-width: 481px) and (max-width: 960px)" href="css/tablet.css">
+
+    <!-- Media query for full browser width -->
+    <link rel="stylesheet" media="only screen and (min-width: 961px)" href="css/desktop.css">
+
+    <!-- Prevent smartphones from scaling pages down -->
+    <meta name="viewport" content="initial-scale=1">
+  </head>
+  <body>
+    <div id="wrap">
+      <header>
+        <div id="logo"><img width="100px" height="100px" src="images/me.png"/></div>
+        <nav>
+          <ul>
+            <li> <a href="index.html">Home</a> </li>
+            <li> <a href="games.html">Games</a> </li>
+            <li> <a href="about.html">About</a> </li>
+            <li> <a href="companies.html">Company</a> </li>
+            <li> <a href="contact.html">Contact</a> </li>
+            <li> <a href="../index.html">Portfolio</a> </li>
+          </ul>
+        </nav>
+      </header>
+
+      <div id="mainArea">
+        <div class="contact">
+          <p>Contact Form</p>
+          <table border="1">
+            <tr>
+              <td> Subject : </td>
+              <td>
+               <select name="subject">
+                <option value="steam">Steam</option>
+                <option value="riot">Riot</option>
+                <option value="blizzard">Blizzard</option>
+                <option value="epic">Epic</option>
+                <option value="ubisoft">Ubisoft</option>
+                <option value="twitch">Twitch</option>
+              </select>
+              </td>
+            </tr>
+            <tr>
+                <td> Days of Meetings: </td>
+                <td>
+                    <input type="checkbox" name="meetingday" value="M">Monday
+                    <input type="checkbox" name="meetingday" value="T">Tuesday
+                    <input type="checkbox" name="meetingday" value="W">Wednesday
+                    <input type="checkbox" name="meetingday" value="Th">Thursday
+                    <input type="checkbox" name="meetingday" value="F">Friday
+                </td>
+            </tr>
+            <tr>
+                <td> Availability: </td>
+                <td>
+                    <input type="radio" name="avail" value="am"/> AM
+                    <input type="radio" name="avail" value="pm"/> PM
+                </td>
+            </tr>
+            <tr>
+                <td> Message: </td>
+                <td>
+                    <textarea name="msg" cols="25" rows="5"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="reset" value="Reset Form"/>
+                    <input type="submit" value="Submit Form"/>
+                </td>
+            </tr>
+          </table>
+        </div>
+      </div>
+
+      <div id="subArea">
+        <form id="login">
+          <table border="1" width="90%">
+            <tr>
+              <td>Name:</td>
+              <td> <input type="text" placeholder="Type your Name" id="username">
+              </td>
+            </tr>
+
+            <tr>
+              <td>Password:</td>
+              <td> <input type ="Password" placeholder="Type your Password" id="password">
+              </td>
+            </tr>
+          </table>
+          <button id="login">Enter</button>
+        </form>
+      </div>
+
+        <footer>
+          <div id="socialMeida">
+            <a  href="https://www.snapchat.com" target="_blank">
+             <img width="60px" height="60px" src="images/sn.png"/>
+            </a>
+            <a  href="https://www.linkedin.com" target="_blank">
+             <img width="60px" height="60px" src="images/re.png"/>
+            </a>
+            <a  href="https://www.instagram.com" target="_blank">
+             <img width="60px" height="60px" src="images/ins.png"/>
+            </a>
+          </div>
+        </footer>
+
+     </div>
+  </body>
+</html>
